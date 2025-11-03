@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./m1.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+      <div class="nav-container"> 
+        <div class="right-nav">
+          <a class="navbrand">
+            <img src="https://meal-planner-project-js-om-prakash.netlify.app/assets/Logo.jpg" alt="Logo" >
+          </a>
+        </div>
+
+        <div class="left-nav">
+            <a href="#">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact us</a> 
+        </div>
+      </div>
+    </nav>
+      <!-- End of navbar -->
+
+      <div class="container">
+        <div class="content">
+          <div class="row1">
+
+            <div class="form">
+               <label for="height"class="form-label">Enter Height (in cm)</label>
+               <input type="number"class="form-control" id="height" placeholder="Height"> 
+            </div>
+
+            <div class="form">
+               <label for="weight" class="form-label">Enter Weight (in kg)</label>
+               <input type="number" class="form-control" id="weight" placeholder="Weight"> 
+            </div>   
+
+            <div class="form">
+                <label for="age"class="form-label">Enter Age (in years)</label>
+                <input type="number"class="form-control" id="age" placeholder="Age">
+            </div>
+            
+          </div>
+
+          
+          <div class="row2">
+            <div class="form">
+              <label for="gender"class="form-label">Select Gender</label>
+              <select id="gender"class="form-select"> 
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>  
+                <option value="female">Female</option>
+              </select>
+            </div>
+
+            <div class="form">
+              <label for="activity"class="form-label">Select Activity Level</label>
+              <select id="activity"class="form-select"> 
+                <option value="" disabled selected>Select Activity Level</option>
+                <option value="lightly active">Lightly Active</option>
+                <option value="moderately active">Moderately Active</option>
+                <option value="very active">Very Active</option>
+              </select>
+            </div>
+          </div>
+
+          
+          <button type="button" class="btn" id="calculateBtn">Generate Meals</button>
+          
+          </div>
+      </div>
+      
+      <div class="footer">
+        <p>Copyright &copy; 2023 All Rights Reserved.</p>
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    
+</body>
+</html>
